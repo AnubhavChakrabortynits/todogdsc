@@ -11,7 +11,11 @@ function App() {
 const [mode,setMode]=useState("")
 const [udata,setuData]=useState([])
 const getData=()=>{
-  let values=Object.keys(localStorage).sort()
+  let values=Object.keys(localStorage);
+  let value=[]
+  if(values.length!==0){
+    value=values.sort()
+  }
 
 
   if(values.length===0){
@@ -20,7 +24,7 @@ const getData=()=>{
   else{
     let dataArray=[]
 
-    for(let i=0;i<values.length;i++){
+    for(let i=0;i<value.length;i++){
       const obj=values[i]
       dataArray.push(JSON.parse(localStorage.getItem(values[i])))
     }

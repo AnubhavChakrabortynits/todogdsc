@@ -26,8 +26,14 @@ const getData=()=>{
 
     for(let i=0;i<value.length;i++){
       const obj=values[i]
+      try{
       dataArray.push(JSON.parse(localStorage.getItem(value[i])))
     }
+    catch(e){
+      console.log("error")
+    }
+  }
+  
     console.log(dataArray)
     return dataArray;
   }

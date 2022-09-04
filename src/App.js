@@ -26,7 +26,7 @@ const getData=()=>{
 
     for(let i=0;i<value.length;i++){
       const obj=values[i]
-      dataArray.push(JSON.parse(localStorage.getItem(values[i])))
+      dataArray.push(JSON.parse(localStorage.getItem(value[i])))
     }
     console.log(dataArray)
     return dataArray;

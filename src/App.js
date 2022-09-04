@@ -19,7 +19,7 @@ const getData=()=>{
 
 
   if(values.length===0){
-       return "";
+       return [];
   }
   else{
     let dataArray=[]

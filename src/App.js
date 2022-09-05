@@ -74,7 +74,7 @@ else{
 
   useEffect(()=>{
     let initialData=getData()
-    Aos.init({duration:3000})
+    Aos.init({duration:2000})
     setuData(initialData)
   },[])
 
@@ -256,7 +256,7 @@ setTimeout(()=>{
 
 
      
- <div style={{color:"black"}}>t</div>
+ <div style={{color:"black",position:'fixed',height:"1000px",topbottom:"6000px"}}>t</div>
  
     </>
   );

@@ -82,8 +82,8 @@ else{
   return (
     <>
   
-    <i class="fa-sharp fa-solid fa-angles-down fa-2x fa-bounce" style={{position:"fixed",left:"1.2rem",top:"15vw"}}></i>
-    <i class="fa-sharp fa-solid fa-angles-down fa-2x fa-bounce" style={{position:"fixed",right:"1.2rem",top:"15vw"}}></i>
+    <i class="fa-sharp fa-solid fa-angles-down fa-1x fa-bounce" style={{position:"fixed",left:"2.7vw",top:"15vw",fontSize:"7.0vw",zIndex:2}}></i>
+    <i class="fa-sharp fa-solid fa-angles-down fa-1x fa-bounce" style={{position:"fixed",right:"2.7vw",top:"15vw",fontSize:"7.0vw",zIndex:2}}></i>
     <div style={{textAlign:"center"}} className="mt-5 font-effect-shadow-multiple"><h1 style={{fontFamily: "Trirong, sans-serif",fontWeight:"600"}} id="t"><span style={{color:"yellow"}} data-aos="zoom-in">TO</span><span data-aos="fade-up" style={{color:"white"}} id="d">DO</span>&nbsp;&nbsp;<span data-aos="fade-up" style={{color:"red"}} id="a">A</span><span data-aos="fade-up" style={{color:"white"}} id="p">PP</span><span> <i data-aos="fade-down" class="fa-sharp fa-solid fa-book fa-1x text-warning fa-fade"></i></span></h1></div>
     <div data-aos="zoom-out" style={{textAlign:"center"}}><b style={{fontFamily:"Trirong",color:"yellow",textDecoration:"underline"}}>Moto: </b><b><i style={{fontFamily:"Sofia"}}>Make Sure to complete Your Tasks on Time or else You will face <strong style={{color:"red"}}>CONSEQUENCES!!!</strong></i></b></div>
    
@@ -110,7 +110,7 @@ else{
         </div>
       </div>
 
-<div className='mt-4 mb-2 ' style={{textAlign:"center"}}><h2 className='border-bottom border-white'><i data-aos="fade-right" className="fa-solid fa-pen mx-2 text-warning"></i><b data-aos="fade-down" style={{fontFamily: "Trirong, sans-serif",color:"red"}}>Yo<b data-aos="fade-down"  style={{fontFamily: "Trirong, sans-serif",color:"white"}}>ur</b></b> <b data-aos="fade-down"  style={{fontFamily: "Trirong, sans-serif",color:"yellow"}}>To</b><b data-aos="fade-down">dos.....</b><i data-aos="fade-left" className="fa-solid fa-pen mx-2 text-warning"></i></h2></div>
+<div className='mt-4 mb-2 ' style={{textAlign:"center"}}><h2 className='border-bottom border-white'><i data-aos="fade-right" className="fa-solid fa-pen mx-2 text-warning"></i><b data-aos="fade-down" style={{fontFamily: "Trirong, sans-serif",color:"red"}}>Yo<b data-aos="fade-down"  style={{fontFamily: "Trirong, sans-serif",color:"white"}}>ur</b></b> <b data-aos="fade-down"  style={{fontFamily: "Trirong, sans-serif",color:"yellow"}}>To</b><b data-aos="fade-down">dos..</b><i data-aos="fade-left" className="fa-solid fa-pen mx-2 text-warning"></i></h2></div>
 <div className="container mt-3" style={{color:"black"}}>
 {mode===""?"":<div className='row' style={{textAlign:"center"}}><div className='col-12' style={{display:"flex",justifyContent:"center"}}> <AnimatedCheckmark mode={mode} style={{width:"2rem",margin:"auto"}}/></div> </div>}
   <div className="row">

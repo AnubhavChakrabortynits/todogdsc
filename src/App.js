@@ -256,7 +256,7 @@ setTimeout(()=>{
 
 
      
- <div style={{color:"black",position:'fixed',height:"1000px",topbottom:"6000px"}}>t</div>
+ <div style={{color:"black"}}>t</div>
  
     </>
   );
